@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import img1 from './img1.png';
+import fine from './fineBoy.jpg'
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
               <rect x="1" y="1" width="40" height="40" rx="20" stroke="#D0D5DD" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 3"/>
           </svg>
           </div>
-        <img id="profile__image" src={logo} className="App-logo" alt="logo" />
+        <img id="profile__image" src={fine} className="App-logo" alt="logo" />
         <h3 id="twitter">
           Josiah Orji
         </h3>
@@ -34,10 +35,10 @@ function App() {
         <div className="links">
             <div className="box"><a target="_blank" id="twiter__link" href="https://twitter.com/orji_josiah">Twitter Link</a></div>
             <div className="box" ><a target="_blank" id="btn__zuri" href="https://training.zuri.team/">Zuri Team</a></div>
-                <div className="box"><a id="books" href="http://books.zuri.team">Zuri Books</a></div>
-                    <div className="box"><a id="book__python" href="https://books.zuri.team/python-for-beginners?ref_id=<Josiah100>">Python Books</a></div>
-                        <div className="box"><a id="pitch" href="https://background.zuri.team">Background Check for Coders</a></div>
-                            <div className="box"><a id="book__design" href="https://books.zuri.team/design-rules">Design Books</a></div>
+                <div className="box"><a target="_blank" id="books" href="http://books.zuri.team">Zuri Books</a></div>
+                    <div className="box"><a target="_blank" id="book__python" href="https://books.zuri.team/python-for-beginners?ref_id=<Josiah100>">Python Books</a></div>
+                        <div className="box"><a target="_blank" id="pitch" href="https://background.zuri.team">Background Check for Coders</a></div>
+                            <div className="box"><a target="_blank" id="book__design" href="https://books.zuri.team/design-rules">Design Books</a></div>
         </div>
         <div className="tag">
             <a href="https://app.slack.com/client/T042F7V19Q8/D048ETM60M9/rimeto_profile/U0494M0K7G8" target="_blank"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
