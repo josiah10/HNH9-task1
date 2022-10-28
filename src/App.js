@@ -29,7 +29,7 @@ function App() {
 
       </header>
         <div className="links">
-            <div className="box"><a href="3">Twitter Link</a></div>
+            <div className="box"><a id="twiter__link" href="https://twitter.com/orji_josiah">Twitter Link</a></div>
             <div className="box" ><a target="_blank" id="btn__zuri" href="https://training.zuri.team/">Zuri Team</a></div>
                 <div className="box"><a id="books" href="http://books.zuri.team">Zuri Books</a></div>
                     <div className="box"><a id="book__python" href="https://books.zuri.team/python-for-beginners?ref_id=<josiah>">Python Books</a></div>
