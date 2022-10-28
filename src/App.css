@@ -82,7 +82,7 @@ a{
     font-size: 16px;
     color: #667085;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 1000px) {
     body {
         padding: 44px 16px;
     }
